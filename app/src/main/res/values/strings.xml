@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Fruits</string>
+    <string name="my_name">W.S.R.Dayarathna</string>
+    <string name="start_bttn">Start Catching</string>
+    <string name="settings_bttn">Settings</string>
+    <string name="instructions_bttn">Instructions</string>
+    <string name="leaderboard_bttn">Leaderboard</string>
+    <string name="sound_bttn">Sound</string>
+    <string name="feedback_bttn">Feedbacks</string>
+    <string name="add_feedback_bttn">Add Feedbacks</string>
+    <string name="view_feedback_bttn">View Feedbacks</string>
+    <string name="score_0">Score : 0</string>
+    <string name="time_10">Time : 10</string>
+    <string name="fruit">Fruit</string>
+    <string name="yes">YES</string>
+    <string name="game_name">Catch The Fruits</string>
+    <string name="no">NO</string>
+    <string name="time">Time : "</string>
+    <string name="time_up">Time\'s up!!!</string>
+    <string name="OK">OK</string>
+    <string name="title1">1. Gameplay:</string>
+    <string name="instruction_gameplay">Enter the player name and tap fruit images within the countdown time to score.</string>
+    <string name="title2">2. End &amp; Replay:</string>
+    <string name="instruction_end_replay">Game ends after 10 seconds. (default time)\nChoose to end or replay.</string>
+    <string name="title3">3. Leaderboard:</string>
+    <string name="instruction_leaderboard">View top scores.\nAim to beat high scores.</string>
+    <string name="title4">4. Settings:</string>
+    <string name="instruction_settings">Adjust playtime and difficulty.\nCustomize your experience.</string>
+    <string name="feedbacks_txt">We are committed to improving your experience with our app, and your feedback
+        plays a crucial role in helping us achieve that goal. Whether you have suggestions for new features,
+        encountered any issues, or simply want to share your thoughts, we would love to hear from you.</string>
+    <string name="player_name_label">Player Name</string>
+    <string name="rating_label">Rating (out of 5)</string>
+    <string name="feedback_description_label">Feedback Description</string>
+    <string name="feedback_name_hint">Enter Your Name</string>
+    <string name="feedback_description_hint">Enter Feedback Description</string>
+    <string-array name="game_time_options">
+        <item>10s</item>
+        <item>20s</item>
+        <item>30s</item>
+    </string-array>
+    <string-array name="difficulty_options">
+        <item>Easy</item>
+        <item>Medium</item>
+        <item>Hard</item>
+    </string-array>
+    <string-array name="ratings_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>

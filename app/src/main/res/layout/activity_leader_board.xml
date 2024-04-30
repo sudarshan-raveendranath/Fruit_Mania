@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LeaderBoardActivity">
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="356dp"
+        android:layout_height="467dp"
+        android:layout_marginTop="-180dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/lb" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="90dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <!-- Player Name Heading -->
+
+        <TextView
+            android:id="@+id/playerNameHeadingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/trickyjimmy"
+            android:text="Player Name"
+            android:textColor="@color/purple"
+            android:textSize="44sp"
+            android:textStyle="bold" />
+
+        <!-- Score Heading -->
+        <TextView
+            android:id="@+id/scoreHeadingTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:fontFamily="@font/trickyjimmy"
+            android:text="Score"
+            android:textColor="@color/purple"
+            android:textSize="44sp"
+            android:textStyle="bold" />
+
+        <!-- Player List Layout -->
+        <LinearLayout
+            android:id="@+id/playerListLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/playerNameHeadingTextView"
+            android:orientation="vertical"
+            android:padding="16dp" />
+
+        <!-- Leaderboard RecyclerView (if needed) -->
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="70dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/leaderboardRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="470dp"
+        android:layout_height="798dp"
+        android:alpha="0.5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fallphone" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="-55dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/fbottom" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

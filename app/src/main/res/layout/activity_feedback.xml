@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FeedbackActivity">
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="421dp"
+        android:layout_height="786dp"
+        android:layout_marginTop="-30dp"
+        android:layout_marginBottom="-30dp"
+        android:alpha="0.6"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/feedpage" />
+
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="382dp"
+        android:layout_height="690dp"
+        android:layout_marginTop="-280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/feedbacks" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/feedbacks_txt"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/addfeedback_bttn"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/trickyjimmy"
+            android:text="@string/add_feedback_bttn"
+            android:textSize="34sp" />
+
+        <Button
+            android:id="@+id/viewfeedback_bttn"
+            android:layout_width="200dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/trickyjimmy"
+            android:text="@string/view_feedback_bttn"
+            android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView21"
+            android:layout_width="446dp"
+            android:layout_height="312dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="-45dp"
+            android:rotation="181"
+            app:srcCompat="@drawable/falli" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
